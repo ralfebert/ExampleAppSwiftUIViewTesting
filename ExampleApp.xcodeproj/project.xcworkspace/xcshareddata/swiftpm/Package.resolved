@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Snap",
+        "repositoryURL": "https://github.com/ralfebert/Snap.swift.git",
+        "state": {
+          "branch": "spm",
+          "revision": "91f1917c2d85a50a2130a060b1bae860b46053fd",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

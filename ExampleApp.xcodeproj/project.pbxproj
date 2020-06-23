@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFC2D9B024A2553300EBFE6F /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2D9AF24A2553300EBFE6F /* ExampleAppApp.swift */; };
+		BF32D50124A287F5000128BA /* Snap in Resources */ = {isa = PBXBuildFile; fileRef = BF32D50024A287F5000128BA /* Snap */; };
+		BFC2D9B024A2553300EBFE6F /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2D9AF24A2553300EBFE6F /* ExampleApp.swift */; };
 		BFC2D9B224A2553300EBFE6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2D9B124A2553300EBFE6F /* ContentView.swift */; };
 		BFC2D9B424A2553400EBFE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC2D9B324A2553400EBFE6F /* Assets.xcassets */; };
 		BFC2D9B724A2553400EBFE6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC2D9B624A2553400EBFE6F /* Preview Assets.xcassets */; };
 		BFC2D9C224A2553400EBFE6F /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2D9C124A2553400EBFE6F /* ExampleAppTests.swift */; };
-		BFC2D9CD24A2553400EBFE6F /* ExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2D9CC24A2553400EBFE6F /* ExampleAppUITests.swift */; };
+		BFC2D9DC24A256CF00EBFE6F /* Snap in Frameworks */ = {isa = PBXBuildFile; productRef = BFC2D9DB24A256CF00EBFE6F /* Snap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,18 +24,12 @@
 			remoteGlobalIDString = BFC2D9AB24A2553300EBFE6F;
 			remoteInfo = ExampleApp;
 		};
-		BFC2D9C924A2553400EBFE6F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFC2D9A424A2553300EBFE6F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFC2D9AB24A2553300EBFE6F;
-			remoteInfo = ExampleApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF32D50024A287F5000128BA /* Snap */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Snap; sourceTree = "<group>"; };
 		BFC2D9AC24A2553300EBFE6F /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFC2D9AF24A2553300EBFE6F /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
+		BFC2D9AF24A2553300EBFE6F /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		BFC2D9B124A2553300EBFE6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFC2D9B324A2553400EBFE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC2D9B624A2553400EBFE6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -42,9 +37,6 @@
 		BFC2D9BD24A2553400EBFE6F /* ExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC2D9C124A2553400EBFE6F /* ExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppTests.swift; sourceTree = "<group>"; };
 		BFC2D9C324A2553400EBFE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFC2D9C824A2553400EBFE6F /* ExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFC2D9CC24A2553400EBFE6F /* ExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppUITests.swift; sourceTree = "<group>"; };
-		BFC2D9CE24A2553400EBFE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFC2D9C524A2553400EBFE6F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BFC2D9DC24A256CF00EBFE6F /* Snap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +63,6 @@
 			children = (
 				BFC2D9AE24A2553300EBFE6F /* ExampleApp */,
 				BFC2D9C024A2553400EBFE6F /* ExampleAppTests */,
-				BFC2D9CB24A2553400EBFE6F /* ExampleAppUITests */,
 				BFC2D9AD24A2553300EBFE6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +72,6 @@
 			children = (
 				BFC2D9AC24A2553300EBFE6F /* ExampleApp.app */,
 				BFC2D9BD24A2553400EBFE6F /* ExampleAppTests.xctest */,
-				BFC2D9C824A2553400EBFE6F /* ExampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +79,7 @@
 		BFC2D9AE24A2553300EBFE6F /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				BFC2D9AF24A2553300EBFE6F /* ExampleAppApp.swift */,
+				BFC2D9AF24A2553300EBFE6F /* ExampleApp.swift */,
 				BFC2D9B124A2553300EBFE6F /* ContentView.swift */,
 				BFC2D9B324A2553400EBFE6F /* Assets.xcassets */,
 				BFC2D9B824A2553400EBFE6F /* Info.plist */,
@@ -117,17 +101,9 @@
 			children = (
 				BFC2D9C124A2553400EBFE6F /* ExampleAppTests.swift */,
 				BFC2D9C324A2553400EBFE6F /* Info.plist */,
+				BF32D50024A287F5000128BA /* Snap */,
 			);
 			path = ExampleAppTests;
-			sourceTree = "<group>";
-		};
-		BFC2D9CB24A2553400EBFE6F /* ExampleAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BFC2D9CC24A2553400EBFE6F /* ExampleAppUITests.swift */,
-				BFC2D9CE24A2553400EBFE6F /* Info.plist */,
-			);
-			path = ExampleAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,27 +140,12 @@
 				BFC2D9BF24A2553400EBFE6F /* PBXTargetDependency */,
 			);
 			name = ExampleAppTests;
+			packageProductDependencies = (
+				BFC2D9DB24A256CF00EBFE6F /* Snap */,
+			);
 			productName = ExampleAppTests;
 			productReference = BFC2D9BD24A2553400EBFE6F /* ExampleAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BFC2D9C724A2553400EBFE6F /* ExampleAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFC2D9D724A2553400EBFE6F /* Build configuration list for PBXNativeTarget "ExampleAppUITests" */;
-			buildPhases = (
-				BFC2D9C424A2553400EBFE6F /* Sources */,
-				BFC2D9C524A2553400EBFE6F /* Frameworks */,
-				BFC2D9C624A2553400EBFE6F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFC2D9CA24A2553400EBFE6F /* PBXTargetDependency */,
-			);
-			name = ExampleAppUITests;
-			productName = ExampleAppUITests;
-			productReference = BFC2D9C824A2553400EBFE6F /* ExampleAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,10 +163,6 @@
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = BFC2D9AB24A2553300EBFE6F;
 					};
-					BFC2D9C724A2553400EBFE6F = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = BFC2D9AB24A2553300EBFE6F;
-					};
 				};
 			};
 			buildConfigurationList = BFC2D9A724A2553300EBFE6F /* Build configuration list for PBXProject "ExampleApp" */;
@@ -217,13 +174,15 @@
 				Base,
 			);
 			mainGroup = BFC2D9A324A2553300EBFE6F;
+			packageReferences = (
+				BFC2D9DA24A256CF00EBFE6F /* XCRemoteSwiftPackageReference "Snap.swift" */,
+			);
 			productRefGroup = BFC2D9AD24A2553300EBFE6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BFC2D9AB24A2553300EBFE6F /* ExampleApp */,
 				BFC2D9BC24A2553400EBFE6F /* ExampleAppTests */,
-				BFC2D9C724A2553400EBFE6F /* ExampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFC2D9C624A2553400EBFE6F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BF32D50124A287F5000128BA /* Snap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC2D9B224A2553300EBFE6F /* ContentView.swift in Sources */,
-				BFC2D9B024A2553300EBFE6F /* ExampleAppApp.swift in Sources */,
+				BFC2D9B024A2553300EBFE6F /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFC2D9C424A2553400EBFE6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFC2D9CD24A2553400EBFE6F /* ExampleAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,11 +232,6 @@
 			isa = PBXTargetDependency;
 			target = BFC2D9AB24A2553300EBFE6F /* ExampleApp */;
 			targetProxy = BFC2D9BE24A2553400EBFE6F /* PBXContainerItemProxy */;
-		};
-		BFC2D9CA24A2553400EBFE6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFC2D9AB24A2553300EBFE6F /* ExampleApp */;
-			targetProxy = BFC2D9C924A2553400EBFE6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,46 +440,6 @@
 			};
 			name = Release;
 		};
-		BFC2D9D824A2553400EBFE6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R476D442DR;
-				INFOPLIST_FILE = ExampleAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ExampleAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ExampleApp;
-			};
-			name = Debug;
-		};
-		BFC2D9D924A2553400EBFE6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R476D442DR;
-				INFOPLIST_FILE = ExampleAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ExampleAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ExampleApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,16 +470,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFC2D9D724A2553400EBFE6F /* Build configuration list for PBXNativeTarget "ExampleAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFC2D9D824A2553400EBFE6F /* Debug */,
-				BFC2D9D924A2553400EBFE6F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFC2D9DA24A256CF00EBFE6F /* XCRemoteSwiftPackageReference "Snap.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ralfebert/Snap.swift.git";
+			requirement = {
+				branch = spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFC2D9DB24A256CF00EBFE6F /* Snap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFC2D9DA24A256CF00EBFE6F /* XCRemoteSwiftPackageReference "Snap.swift" */;
+			productName = Snap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFC2D9A424A2553300EBFE6F /* Project object */;
 }
